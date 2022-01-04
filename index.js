@@ -1,11 +1,15 @@
 // Делятся на 5
 
-
-let count = 0;
-
-while (count++ < 100){
-    if (count % 5 === 0){
-        console.log(count);
+function getDivFive(from, to){
+    let result = 0;
+    for(i = from; i <= to; i++){
+        if (i % 5 === 0){
+            result = i;
+            console.log(result);
+        }
     }
 }
+
+
+const res = getDivFive(15, 44);
 console.log('The end of script');
