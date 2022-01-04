@@ -2,9 +2,8 @@
 
 
 let count = 0;
-const MAX_COUNT = 84;
 
-while (count++ < MAX_COUNT){
+while (count++ < 100){
     if (count % 5 === 0){
         console.log(count);
     }
